@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Call Blocker App</string>
+
+    <!-- Login ACTIVITY-->
+    <string name="msg_signin_success">signInResult:success -> %1$s.</string>
+    <string name="msg_signin_fail">signInResult:failed code= %1$s.</string>
+
+    <!-- MAIN ACTIVITY-->
+    <string name="msg_logout_success">Logout with success</string>
+
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+
+    <!-- AlertDialogUtil -->
+    <string name="dialog_title">Atenção</string>
+    <string name="dialog_message_logout">Deseja realmente efetuar o logout?</string>
+    <string name="dialog_positive_button">Sim</string>
+    <string name="dialog_negative_button">Cancelar</string>
+    <string name="dialog_message_delete_block_list">Deseja excluir o número da lista de bloqueio?</string>
+    <string name="dialog_message_add_block_list">Deseja adicionar o número a lista de bloqueio?</string>
+    <string name="dialog_message_add_contact_block_list">Deseja adicionar o contato a lista de bloqueio?</string>
+    <string name="dialog_message_request_permission">O aplicativo precisa de acesso as chamadas telefônicas para o funcionamento. Permitir o acesso?</string>
+    <string name="dialog_about_app_title">Sobre o app</string>
+    <string name="dialog_about_app_message">Aplicativo para bloqueio de chamadas indesejadas.\n\n Desenvolvido por Antoni Sganzerla.</string>
+
+    <!-- PermissionUtil -->
+    <string name="msg_permissions_not_checked">permissions not checked</string>
+    <string name="msg_permission_not_granted">Permission NOT granted!</string>
+    <string name="msg_permission_not_granted_list">Permission NOT granted : %1$s!</string>
+    <string name="msg_permission_granted">Permission granted: %1$s !</string>
+    <string name="msg_unnecessary_check_permission">unnecessary check permission</string>
+
+
+    <!-- CALL BROADCAST-->
+    <string name="msg_call_broadcast">Execute on receive from broadcast</string>
+    <string name="msg_phone_state">Phone state %1$s .</string>
+    <string name="msg_fail_end_call">Fail to end the call!</string>
+    <string name="msg_sucess_end_call">Ending the call from: %1$s .</string>
+
+    <!-- LogCallLoader -->
+    <string name="msg_on_create_loader">onCreateLoader() >> loaderID : %1$s .</string>
+    <string name="msg_on_load_finished">onLoadFinished().</string>
+    <string name="msg_on_loader_reset">onLoaderReset().</string>
+
+    <!-- Menu item drawer -->
+    <string name="menu_item_call">Chamadas</string>
+    <string name="menu_item_contact">Contatos</string>
+    <string name="menu_item_blockeds">Bloqueados</string>
+    <string name="menu_item_title">Ajuda</string>
+    <string name="menu_item_tools">Configurações</string>
+    <string name="menu_item_about">Sobre o app</string>
+    <string name="menu_item_logout">Sair</string>
+
+    <!-- BlockListAdapter -->
+    <string name="message_delete_item_block_list">Deletado com sucesso</string>
+
+    <!-- CallLogAdapter -->
+    <string name="message_add_item_block_list">Adicionado com sucesso</string>
+
+    <!-- CallLogFragment -->
+    <string name="title_call_log_fragment">Chamadas</string>
+    <string name="call_log_list_empty">Não há registros de ligações recentes.</string>
+
+    <!-- BlockListFragment -->
+    <string name="title_block_list_fragment">Lista de bloqueio</string>
+    <string name="block_list_empty">Não há números na lista de bloqueio</string>
+
+    <!-- ContactFragment -->
+    <string name="title_contact_list_fragment">Contatos</string>
+    <string name="contact_list_empty">Não há contatos na sua agenda</string>
+    <string name="contact_without_number">Sem número associado</string>
+
+    <!-- PreferencesFragment -->
+    <string name="title_preferences_fragment">Configurações</string>
+
+    <string name="title_block_all">Bloquear chamadas</string>
+    <string name="summary_block_all">Bloquear todas as chamadas recebidas.</string>
+    <string name="key_block_all">block_all</string>
+    <bool name="block_all_setting_default">false</bool>
+
+    <string name="title_block_list">Bloquear apenas da lista</string>
+    <string name="summary_block_list">Bloquear chamadas recebidas da lista de bloqueio</string>
+    <string name="key_block_list">block_only_block_list</string>
+    <bool name="block_list_setting_default">true</bool>
+
+    <string name="title_notification">Notificações</string>
+    <string name="summary_notification">Receber notificações após bloqueio de chamada recebida</string>
+    <string name="key_notification">notifications</string>
+    <bool name="notification_setting_default">true</bool>
+
+    <!-- NotificationUtil -->
+    <string name="channel_name">Call blocker</string>
+    <string name="channel_description">Block unwanted calls</string>
+    <string name="not_sent_notification_log">Notification not sent because of user preferences</string>
+    <string name="notification_title">Chamada Bloqueada</string>
+    <string name="notification_message">%1$s - %2$s</string>
+
+    <string name="tv_block_date">Bloqueado em:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

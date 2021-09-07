@@ -1,0 +1,23 @@
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+            app:key="@string/key_block_all"
+            app:title="@string/title_block_all"
+            android:defaultValue="@bool/block_all_setting_default"
+            app:summary="@string/summary_block_all"/>
+
+    <SwitchPreferenceCompat
+            app:key="@string/key_block_list"
+            app:title="@string/title_block_list"
+            android:defaultValue="@bool/block_list_setting_default"
+            app:summary="@string/summary_block_list"/>
+
+    <SwitchPreferenceCompat
+            app:key="@string/key_notification"
+            app:title="@string/title_notification"
+            android:defaultValue="@bool/notification_setting_default"
+            app:summary="@string/summary_notification"/>
+
+</androidx.preference.PreferenceScreen>
